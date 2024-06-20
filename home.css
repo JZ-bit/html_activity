@@ -1,3 +1,5 @@
+
+
 /* Header */
 a {
     text-decoration: none;
@@ -22,17 +24,46 @@ a {
   
   .site-identity h1 {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 50px;
-    margin: 1px;
-    margin-top: 15px;
+    font-size: 70px;
+    margin: 50px;
+    margin-top: 50px;
     display: inline-block;
   }
   
   .site-identity img {
-    max-width: 90px;
+    max-width: 150px;
     float: left;
-    margin: 0 10px 0 10px;
+    margin: 20px 10px 0 10px;
   }
+  /* Buttons */
+  form {
+    min-height: 19vh;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-right: 20px;
+    column-gap: 30px;
+}
+/* Styling the input button elements inside the form */
+form button {
+  padding: 0.5rem;
+  font-size: 4rem;
+  border: none;
+  background: #ef7613;
+}
+/* Styling the submit button inside the form */
+form button {
+  color: #000000;
+  background: #FFB642;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+form button:hover {
+  background-color: #FFB642;
+  color: white;
+}
+
 /* Main */
 main {
     margin:0 -9px 0 -9px ;
@@ -48,10 +79,10 @@ main {
     float: left;
     color: #ffffff;
     text-align: center;
-    padding: 15px 142px 15px 130px;
+    padding: 15px 162.5px 15px 130px;
     text-decoration:none;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 30px;
 }
 .topnav a:hover {
     background-color: #f8910a;
